@@ -8,6 +8,10 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    border-bottom: 1px solid #212529;
+    position: sticky;
+    top: 0;
+
 }
 
 nav a{
