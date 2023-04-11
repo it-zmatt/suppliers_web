@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+nav{
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #212529;
+    position: sticky;
+    top: 0;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: #212529;
+}
+
+nav a:hover{
+    color: #D4BC89;
+    text-decoration: underline;
+}
+
+
+nav .titleN{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+nav .list{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+nav .list a{
+    padding: 0px 25px;
+}
