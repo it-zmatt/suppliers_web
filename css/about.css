@@ -1,0 +1,47 @@
+.cabout{
+background-color: #e9ecef;
+}
+
+.about{
+    width: 100%;
+    height: 100%;
+    background-color: #212529;
+    color: #e9ecef;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about .leftAbout{
+    width: 45%;
+    margin: 5% 0;
+}
+
+.about .rightAbout{
+    width: 45%;
+    margin: 5% 0;
+}
+
+.about .rightAbout img{
+    width: 100%;
+}
+
+.about .leftAbout h1, .about .leftAbout li, .about .leftAbout, .about .rightAbout{
+    background-color: #212529;
+
+}
+
+.about .leftAbout h1{
+    color: #D4BC89;
+    padding: 10% 0px;
+}
+
+.about .leftAbout li{
+    list-style: circle;
+    padding: 10px 20px ;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
